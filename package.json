@@ -1,0 +1,47 @@
+{
+  "name": "@zhibi/vue-auto-sizer",
+  "version": "1.0.0",
+  "description":
+    "A Vue AutoSizer component clone by react-virtualized AutoSizer component.",
+  "author": "xlzy520",
+  "license": "MIT",
+  "homepage": "https://github.com/xlzy520/vue-autosizer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlzy520/vue-autosizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xlzy520/vue-autosizer/issues"
+  },
+  "engines": {
+    "node": ">8.0.0"
+  },
+  "keywords": [
+    "list",
+    "scrolling",
+    "infinite",
+    "virtualized",
+    "table",
+    "grid",
+    "spreadsheet",
+    "vue",
+    "autosizer"
+  ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": ["dist/*"],
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-terser":"^0.4.0",
+    "postcss": "^8.3.6",
+    "rollup": "^2.56.3",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
